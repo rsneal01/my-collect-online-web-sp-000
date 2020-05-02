@@ -5,6 +5,6 @@ def my_collect(array)
     capitalized_languages << yield(array[i])
     i += 1
   end
-  # array
+  capitalized_languages
 end
 
