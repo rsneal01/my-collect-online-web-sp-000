@@ -1,10 +1,10 @@
 def my_collect(array)
   i = 0
-  capitalized_languages = []
+  new_array = []
   while i < array.length
-    capitalized_languages << yield(array[i])
+    new_array << yield(array[i])
     i += 1
   end
-  capitalized_languages
+  new_array
 end
 
