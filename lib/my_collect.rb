@@ -4,9 +4,9 @@ def my_collect(array)
   languages do |language|
     language.upcase
   end  
-    yield(array[i])
+    
     i += 1
   end
-  
+  yield(array[i])
 end
 
